@@ -8,5 +8,12 @@
     <artifactId>mb2g-alt-jvm</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.targetEncoding>UTF-8</project.reporting.targetEncoding>
+        <java.version>11</java.version>
+        <maven.build.source>${java.version}</maven.build.source>
+        <maven.build.target>${java.version}</maven.build.target>
+    </properties>
 
 </project>
